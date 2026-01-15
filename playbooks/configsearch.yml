@@ -1,4 +1,4 @@
-# Run the following command replacing the IP with Web Server or VIP IP Address: ansible-playbook /etc/ansible/playbooks/Show_VIP_Config.yml --extra-vars F5Server="10.20.213.24"
+# Run the following command replacing the IP with Web Server or VIP IP Address: ansible-playbook /app/F5-AnsibleScripts/playbooks/Show_VIP_Config.yml --extra-vars F5Server="10.20.213.24" -i /app/F5-AnsibleScripts/inventory/hosts
 # Output file with Configuration associated with the Server IP will be at /var/tmp/resultingfile
 ---
 - name: Searching and retrieving VIP Config associated with Server IP
